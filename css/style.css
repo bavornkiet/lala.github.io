@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800;900&family=Noto+Sans+Thai:wght@400;500;600;700;800;900&display=swap');
 
 body {
+
     background-color: #F1CBCA;
     font-family: "Montserrat", sans-serif;
     display: flex;
@@ -12,7 +13,7 @@ body {
 }
 
 #firstsection {
-    margin-top: 50px;
+    /* margin-top: 50px; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -79,6 +80,8 @@ button {
 @media screen and (max-width: 420px) {
 
     body {
+        padding-top: 60px;
+        padding-bottom: 30px;
         background-color: #F1CBCA;
         font-family: "Montserrat", sans-serif;
         display: flex;
@@ -100,9 +103,10 @@ button {
     }
 
     #firsth1 {
-        margin: 20px;
+        padding-top: 20px;
+        margin-top: 20px;
         color: #fffbe7;
-        font-size: 8vw;
+        font-size: 6vw;
         /* Responsive font size */
     }
 
@@ -112,7 +116,7 @@ button {
         text-align: center;
         color: #fff;
         font-weight: 700;
-        font-size: 4vw;
+        font-size: 3vw;
         /* Responsive font size */
         padding: 20px;
         background-color: rgba(0, 0, 0, 0.5);
@@ -133,18 +137,5 @@ button {
         margin-top: 20px;
     }
 
-    #firsth1 {
-        font-size: 10vw;
-        /* Adjust font size for very small screens */
-    }
 
-    #firstdiv {
-        font-size: 5vw;
-        /* Adjust font size for very small screens */
-    }
-
-    button {
-        font-size: 5vw;
-        /* Adjust font size for very small screens */
-    }
 }
