@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800;900&family=Noto+Sans+Thai:wght@400;500;600;700;800;900&display=swap');
+
+body {
+    background-color: #F1CBCA;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#firstsection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    max-width: 800px;
+    text-align: center;
+    /* border: 2px solid grey; */
+    border-radius: 10px;
+    padding: 20px;
+    /* background-color: rgba(0, 0, 0, 0.1); */
+}
+
+#ss {
+    color: red;
+    font-size: 20px;
+    margin-left: 2px;
+    margin-right: 2px;
+    font-weight: 800;
+}
+
+#content {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#firsth1 {
+    flex: 1;
+    color: #fffbe7;
+    font-size: 2rem;
+}
+
+#firstdiv {
+    flex: 2;
+    border: 5px solid #fffbe7;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1rem;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+button {
+    color: grey;
+    font-weight: 800;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background: #FFFAB0;
+    transition: all 0.3s ease;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    align-self: center;
+}
+
+
+
+@media screen and (max-width: 420px) {
+
+    body {
+        background-color: #F1CBCA;
+        font-family: "Montserrat", sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        min-height: 100vh;
+        margin: 0;
+    }
+
+    #firstsection {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 20px;
+        text-align: center;
+        width: 90%;
+    }
+
+    #firsth1 {
+        margin: 20px;
+        color: #fffbe7;
+        font-size: 8vw;
+        /* Responsive font size */
+    }
+
+    #firstdiv {
+        border: 5px solid #fffbe7;
+        border-radius: 10px;
+        text-align: center;
+        color: #fff;
+        font-weight: 700;
+        font-size: 4vw;
+        /* Responsive font size */
+        padding: 20px;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    button {
+        color: grey;
+        font-weight: 800;
+        font-size: 4vw;
+        /* Responsive font size */
+        outline: none;
+        border: none;
+        border-radius: 10px;
+        background: #FFFAB0;
+        transition: all 0.3s ease;
+        padding: 10px 20px;
+        cursor: pointer;
+        margin-top: 20px;
+    }
+
+    #firsth1 {
+        font-size: 10vw;
+        /* Adjust font size for very small screens */
+    }
+
+    #firstdiv {
+        font-size: 5vw;
+        /* Adjust font size for very small screens */
+    }
+
+    button {
+        font-size: 5vw;
+        /* Adjust font size for very small screens */
+    }
+}

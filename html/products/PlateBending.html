@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://formden.com/static/cdn/bootstrap-iso.css"> -->
+
+
+    <!--=============== SWIPER ===============-->
+    <link rel="stylesheet" href="../../assets/css/swiper-bundle.min.css">
+    <script src="../../assets/js/swiper-bundle.min.js"></script>
+    <!--=============== REMIXICONS ===============-->
+    <link rel="stylesheet" href="../../assets/css/remixicon.css">
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="../../assets/css/styles.css">
+    <link rel="stylesheet" href="../../assets/css/steel2.css">
+    <link rel="stylesheet" href="../../assets/css/food.css">
+    <link rel="icon" href="../../img/copped-sc logo.png" sizes="192x192">
+    <title>Siam Charn Co.,Ltd</title>
+
+</head>
+
+<body>
+    <!--=============== HEADER ===============-->
+    <div class="preloader">
+        <img src="../../siamcharn_logo.png" alt="siam charn">
+    </div>
+    <header class="header">
+        <nav id="navbar" class="nav container">
+            <div class="nav__data">
+                <a href="#" class="nav__logo">
+                    <img src="../../siamcharn_logo.png" style="padding: 0px; height: 49px;" alt="">
+                </a>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-line nav__burger"></i>
+                    <i class="ri-close-line nav__close"></i>
+                </div>
+            </div>
+
+            <!--=============== NAV MENU ===============-->
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li><a href="../../index.html" class="nav__link" id="nav_home">Home</a></li>
+
+                    <li><a href="../aboutus.html" class="nav__link" id="nav_about">About Us</a></li>
+
+                    <!--=============== DROPDOWN 1 ===============-->
+                    <li class="dropdown__item">
+                        <div class="nav__link dropdown__button">
+                            <span id="nav_products">Industry Products</span> <i
+                                class="ri-arrow-down-s-line dropdown__arrow"></i>
+                        </div>
+                        <div class="dropdown__container">
+                            <div class="dropdown__content">
+                                <div class="dropdown__group">
+                                    <ul class="dropdown__list">
+                                        <li>
+                                            <a href="food.html" class="dropdown__link">
+                                                <i class="ri-arrow-drop-right-line"></i><span id="nav_food">Food and
+                                                    Beverage</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="steel.html" class="dropdown__link">
+                                                <i class="ri-arrow-drop-right-line"></i><span id="nav_metal">Ferrous and
+                                                    Non-ferrous Metal</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="livestock.html" class="dropdown__link">
+                                                <i class="ri-arrow-drop-right-line"></i>
+                                                <span id="nav_livestock"> Livestock Feed and Packing</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="warehouse.html" class="dropdown__link">
+                                                <i class="ri-arrow-drop-right-line"></i>
+                                                <span id="nav_warehouse">Mill Machinery</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="agricultural.html" class="dropdown__link">
+                                                <i class="ri-arrow-drop-right-line"></i>
+                                                <span id="nav_agricultural">Agricultural and Starch
+                                                    Processing</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="pharmaceutical.html" class="dropdown__link">
+                                                <i class="ri-arrow-drop-right-line"></i>
+                                                <span id="nav_pharmaceutical">Pharmaceutical Industry</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="cosmetic.html" class="dropdown__link">
+                                                <i class="ri-arrow-drop-right-line"></i>
+                                                <span id="nav_cosmetic">Cosmetic Production</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="wooden.html" class="dropdown__link">
+                                                <i class="ri-arrow-drop-right-line"></i>
+                                                <span id="nav_wooden">Wood Industry</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="construction.html" class="dropdown__link">
+                                                <i class="ri-arrow-drop-right-line"></i>
+                                                <span id="nav_construction">Construction Materials Production</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="energy.html" class="dropdown__link">
+                                                <i class="ri-arrow-drop-right-line"></i>
+                                                <span id="nav_energy">Construction Materials Production</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="automotive.html" class="dropdown__link">
+                                                <i class="ri-arrow-drop-right-line"></i>
+                                                <span id="nav_automotive">Automotive Industry</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="mill.html" class="dropdown__link">
+                                                <i class="ri-arrow-drop-right-line"></i>
+                                                <span id="nav_mill">Mill Machinery</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+
+
+                    <li><a href="../spares.html" class="nav__link" id="nav_spare">Spares and Maintenance</a></li>
+
+                    <li><a href="../contactus.html" class="nav__link" id="nav_contact">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="nav__lang">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td style=" width: 45%; align-items: center;">
+                                <div style="text-align: center;">
+                                    <a id="btn_language1" onclick="togglelangth()" class="btn-lang"><img
+                                            style="width: 75%; padding-top: 12%;" src="../../img/thai.webp" alt="TH"
+                                            class="flag"></a>
+                                </div>
+                            </td>
+                            <td style="width: 10%; text-align: center; padding-bottom: 2px;">
+                                <span style="color: white; font-size: 20px; ">| </span>
+                            </td>
+                            <td style="width: 45%; align-items: center;">
+                                <div style="text-align: center;">
+                                    <a id="btn_language2" onclick="togglelangen()" class="btn-lang"><img
+                                            style="width: 75%; height: 19px; padding-top: 12%;" src="../../img/uk.webp"
+                                            alt="EN" class="flag"></a>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </nav>
+    </header>
+    <main>
+
+        <div class="machine-info">
+            <img class="info-img" src="images/m6.png" alt="">
+            <div class="divider"></div>
+            <div class="info">
+
+                <h2><span id="machine_name" style="text-decoration: none;">Machine Name</span>: <span
+                        class="V-name">Plate Bending Machine</span></h2>
+                <a id="a_details" href="../contactus.html">
+                    Ask For Details</a>
+                <a id="a_quotation" href="mailto:info@siamcharn.com">
+                    Ask For Quotation</a>
+            </div>
+
+        </div>
+        <!-- <div class="machine">
+            <h2 class="machine-header" style="color: black;">Details</h2>
+            <h2 class="machine-header" style="color: black; text-decoration: underline;">Swipe To See More</h2>
+            <div class="slide-container swiper">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+                                <div class="card-image">
+                                    <img src="steel_img/32.jpg" alt="" class="card-img">
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+                                <div class="card-image">
+                                    <img src="steel_img/33.jpg" alt="" class="card-img">
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+                <div class="swiper-button-next swiper-navBtn"></div>
+                <div class="swiper-button-prev swiper-navBtn"></div>
+                <div class="swiper-pagination"></div>
+
+            </div>
+            <br>
+            <br>
+        </div> -->
+
+        <footer>
+            <div class="row">
+                <div class="col">
+                    <img class="logo" src="../../siamcharn_logo.png" alt="siamcharn">
+                    <p id="footer_col1">
+                        At Siam Charn, we are dedicated to enhancing our customer benefits through a blend of
+                        top-quality
+                        products, cutting-edge designs, and impeccable services. Your success is our utmost priority.
+                    </p>
+                </div>
+                <div class="col">
+                    <h3 id="foot_quick">Quick Contact</h3>
+                    <p class="email-id"><i class="ri-mail-fill" style="display: inline-block;
+                        vertical-align: middle;"></i> <a style="display: inline-block;
+                        vertical-align: middle; text-decoration: none; color: #FFF;"
+                            href="mailto:info@siamcharn.com">info@siamcharn.com</a></p>
+                    <h4><i class="ri-phone-fill" style="display: inline-block;
+                        vertical-align: middle; color: #00b0b0;"></i><a style="padding-left: 2px; display: inline-block;
+                        vertical-align: middle; text-decoration: none; color: #00b0b0; font-weight: 600;"
+                            href="tel:+662425865557"> +(66)-2 425
+                            8655-57</a>
+                    </h4>
+                    <h4><i class="ri-phone-fill" style="display: inline-block;
+                        vertical-align: middle; color: #00b0b0;"></i><a style="padding-left: 2px; display: inline-block;
+                        vertical-align: middle; text-decoration: none;color: #00b0b0; font-weight: 600;"
+                            href="tel: +662425894649">(+66)2 425 8946-49</a>
+                    </h4>
+                    <h4><i class="ri-printer-line" style="display: inline-block;
+                        vertical-align: middle; color: #00b0b0;"></i>
+                        <p style="padding-left: 4px; display: inline-block;
+                        vertical-align: middle; text-decoration: none;color: #00b0b0; font-weight: 600;">
+                            (+66)-2 425 8658</p>
+                    </h4>
+                    <a target="_blank" class="social-icon" href="https://www.facebook.com/siamcharn.atk/" style="display: inline-block;
+                    vertical-align: middle;"><span id="foot_fb">Follow us</span> <span><i style="display: inline-block;
+        vertical-align: middle;" class="ri-facebook-circle-fill"></span></i></a>
+                    <!-- <div class="underline"><span></span></div> -->
+                </div>
+                <div class="col">
+                    <h3 id="foot_links">Links</h3>
+                    <ul>
+                        <li class="footer-list"><a id="foot_home" href="../../index.html">Home</a></li>
+                        <li class="footer-list"><a id="foot_about" href="../aboutus.html">About Us</a></li>
+                        <li class="footer-list"><a id="foot_products" href="../products.html">Industry Products</a></li>
+                        <li class="footer-list"><a id="foot_spare" href="../spares.html">Spares and Maintenance</a></li>
+                        <li class="footer-list"><a id="foot_contact" href="../contactus.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h3 id="foot_office">Office</h3>
+                    <p id="foot_siam">Siam Charn Co., Ltd.</p>
+                    <p id="foot_address1">40 Moo 11 Suksawat Road Naiklongbangplakod</p>
+                    <p id="foot_address2">Prasamutchedi Samutprakarn 10290</p>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3877.9912483424546!2d100.5582488116581!3d13.597346700793619!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e2a2964d974431%3A0xf2ba9e6a63b96a0b!2z4Lia4Lij4Li04Lip4Lix4LiXIOC4quC4ouC4suC4oSDguIrguLLguI0g4LiI4Liz4LiB4Lix4LiUIFNpYW0gQ2hhcm4gQ28uLEx0ZA!5e0!3m2!1sen!2sth!4v1693731626727!5m2!1sen!2sth"
+                        width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">© Copyright 2023 siamcharn.com All Rights Reserved.
+            </p>
+        </footer>
+    </main>
+
+    <!--=============== MAIN JS ===============-->
+
+</body>
+
+<!--=============== MAIN JS ===============-->
+
+
+
+<script src="../../assets/js/main.js"></script>
+<script src="../../assets/js/steel2.js"></script>
+<script src="../../assets/js/lang-switch.js"></script>
+<script src="../../assets/js/code.jquery.com_jquery-3.7.1.min.js"></script>
+
+
+</html>

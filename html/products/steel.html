@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://formden.com/static/cdn/bootstrap-iso.css"> -->
+
+
+    <!--=============== SWIPER ===============-->
+    <link rel="stylesheet" href="../../assets/css/swiper-bundle.min.css">
+    <script src="../../assets/js/swiper-bundle.min.js"></script>
+    <!--=============== REMIXICONS ===============-->
+    <link rel="stylesheet" href="../../assets/css/remixicon.css">
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="../../assets/css/styles.css">
+    <link rel="stylesheet" href="../../assets/css/steel.css">
+    <link rel="stylesheet" href="../../assets/css/food.css">
+    <link rel="icon" href="../../img/copped-sc logo.png" sizes="192x192">
+    <title>Siam Charn Co.,Ltd</title>
+
+</head>
+
+<body>
+    <!--=============== HEADER ===============-->
+    <div class="preloader">
+        <img src="../../siamcharn_logo.png" alt="siam charn">
+    </div>
+    <header class="header">
+        <nav id="navbar" class="nav container">
+            <div class="nav__data">
+                <a href="#" class="nav__logo">
+                    <img src="../../siamcharn_logo.png" style="padding: 0px; height: 49px;" alt="">
+                </a>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-line nav__burger"></i>
+                    <i class="ri-close-line nav__close"></i>
+                </div>
+            </div>
+
+            <!--=============== NAV MENU ===============-->
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li><a href="../../index.html" class="nav__link" id="nav_home">Home</a></li>
+
+                    <li><a href="../aboutus.html" class="nav__link" id="nav_about">About Us</a></li>
+
+                    <!--=============== DROPDOWN 1 ===============-->
+                    <li class="dropdown__item">
+                        <div class="nav__link dropdown__button">
+                            <span id="nav_products">Industry Products</span> <i
+                                class="ri-arrow-down-s-line dropdown__arrow"></i>
+                        </div>
+                        <div class="dropdown__container">
+                            <div class="dropdown__content">
+                                <div class="dropdown__group">
+                                    <ul class="dropdown__list">
+                                        <li>
+                                            <a href="food.html" class="dropdown__link">
+                                                <i class="ri-arrow-drop-right-line"></i><span id="nav_food">Food and
+                                                    Beverage</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="steel.html" class="dropdown__link">
+                                                <i class="ri-arrow-drop-right-line"></i><span id="nav_metal">Ferrous and
+                                                    Non-ferrous Metal</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="livestock.html" class="dropdown__link">
+                                                <i class="ri-arrow-drop-right-line"></i>
+                                                <span id="nav_livestock"> Livestock Feed and Packing</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="warehouse.html" class="dropdown__link">
+                                                <i class="ri-arrow-drop-right-line"></i>
+                                                <span id="nav_warehouse">Mill Machinery</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="agricultural.html" class="dropdown__link">
+                                                <i class="ri-arrow-drop-right-line"></i>
+                                                <span id="nav_agricultural">Agricultural and Starch
+                                                    Processing</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="pharmaceutical.html" class="dropdown__link">
+                                                <i class="ri-arrow-drop-right-line"></i>
+                                                <span id="nav_pharmaceutical">Pharmaceutical Industry</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="cosmetic.html" class="dropdown__link">
+                                                <i class="ri-arrow-drop-right-line"></i>
+                                                <span id="nav_cosmetic">Cosmetic Production</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="wooden.html" class="dropdown__link">
+                                                <i class="ri-arrow-drop-right-line"></i>
+                                                <span id="nav_wooden">Wood Industry</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="construction.html" class="dropdown__link">
+                                                <i class="ri-arrow-drop-right-line"></i>
+                                                <span id="nav_construction">Construction Materials Production</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="energy.html" class="dropdown__link">
+                                                <i class="ri-arrow-drop-right-line"></i>
+                                                <span id="nav_energy">Construction Materials Production</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="automotive.html" class="dropdown__link">
+                                                <i class="ri-arrow-drop-right-line"></i>
+                                                <span id="nav_automotive">Automotive Industry</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="mill.html" class="dropdown__link">
+                                                <i class="ri-arrow-drop-right-line"></i>
+                                                <span id="nav_mill">Mill Machinery</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+
+
+                    <li><a href="../spares.html" class="nav__link" id="nav_spare">Spares and Maintenance</a></li>
+
+                    <li><a href="../contactus.html" class="nav__link" id="nav_contact">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="nav__lang">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td style=" width: 45%; align-items: center;">
+                                <div style="text-align: center;">
+                                    <a id="btn_language1" class="btn-lang"><img style="width: 75%; padding-top: 12%;"
+                                            src="../../img/thai.webp" alt="TH" class="flag"></a>
+                                </div>
+                            </td>
+                            <td style="width: 10%; text-align: center; padding-bottom: 2px;">
+                                <span style="color: white; font-size: 20px; ">| </span>
+                            </td>
+                            <td style="width: 45%; align-items: center;">
+                                <div style="text-align: center;">
+                                    <a id="btn_language2" class="btn-lang"><img
+                                            style="width: 75%; height: 19px; padding-top: 12%;" src="../../img/uk.webp"
+                                            alt="EN" class="flag"></a>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </nav>
+    </header>
+    <main>
+
+        <div class="section-container">
+            <div class="columns content">
+                <div class="content-container">
+                    <h2 id="metal_h2">
+                        Ferrous and Non-ferrous Metal</h2>
+                    <p id="metal_p">
+                        Welcome to the ferrous and non-ferrous metal industry section. We specialize in providing
+                        top-tier
+                        machinery for sheet and plate processing, coil handling, H beam and structural shape production,
+                        pipe work, deformed bar and wire work, and advanced automation systems. With our cutting-edge
+                        technology, we drive efficiency and precision in metal fabrication, empowering businesses to
+                        shape the future of structural and industrial solutions. Discover innovation and reliability in
+                        every machine we offer.
+                    </p>
+                    <!-- <p>For spare parts inquiries, purchases, order tracking, or for
+                        service-related matters, reach out to our team at <a class="anc"
+                            href="tel:+662425865557">(+66)2425865557</a>
+                        or email <a class="anc" href="mailto:info@siamcharn.com">info@siamcharn.com</a>.
+                    </p> -->
+                </div>
+            </div>
+            <div class="columns image" style="background-image:url('../../img/structural-glass-ceiling-1.webp')">
+                &nbsp;
+            </div>
+        </div>
+        <div class="machine">
+
+            <h2 id="rec_machine" class="machine-header" style="color: black;">Recommended Machines</h2>
+            <br>
+            <div class="slide-container swiper">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <a href="SwingShear.html" class="swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+                                <div class="card-image">
+                                    <img src="images/m1.png" alt="" class="card-img">
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h2 class="name">Swing Shear SS Series</h2>
+                                <!-- <p class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                    Sapiente atque possimus voluptatem nisi earum eos quae ex voluptatum, molestiae
+                                    distinctio, tenetur itaque labore vel deserunt dicta deleniti minima ducimus
+                                    autem.</p> -->
+
+                                <button href="SwingShear.html" class="button">Find Out More</button>
+                            </div>
+                        </a>
+                        <a href="Vgrooving.html" class="swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+                                <div class="card-image">
+                                    <img src="images/m2.png" alt="" class="card-img">
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h2 class="name">V Grooving Machine</h2>
+                                <!-- <p class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                    Sapiente atque possimus voluptatem nisi earum eos quae ex voluptatum, molestiae
+                                    distinctio, tenetur itaque labore vel deserunt dicta deleniti minima ducimus
+                                    autem.</p> -->
+
+                                <button href="Vgrooving.html" class="button">Find Out More</button>
+                            </div>
+                        </a>
+                        <a href="LFSseries.html" class="swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+                                <div class="card-image">
+                                    <img src="images/m3.png" alt="" class="card-img">
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h2 class="name">Fiber Laser LFS Series</h2>
+                                <!-- <p class="description">A cutting-edge machine with innovative design and patented
+                                    technologies. It delivers high-speed precision cutting, low energy consumption, and
+                                    is perfect for large-scale, competitive laser processing.</p> -->
+
+                                <button href="LFSseries.html" class="button">Find Out More</button>
+                            </div>
+                        </a>
+                        <a href="LFDseries.html" class="swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+                                <div class="card-image">
+                                    <img src="images/m4.png" alt="" class="card-img">
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h2 class="name">Fiber Laser LFD Series</h2>
+                                <!-- <p class="description">A cutting-edge machine with a closed design, dual-table fast
+                                    exchange, precision edge cutting, ease of use, and high energy efficiency. Ideal for
+                                    high-volume continuous processing, it accentuates your competitive edge.</p> -->
+
+                                <button href="LFDseries.html" class="button">Find Out More</button>
+                            </div>
+                        </a>
+                        <a href="PlateBending.html" class="swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+                                <div class="card-image">
+                                    <img src="images/m6.png" alt="" class="card-img">
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h2 class="name">Plate Bending Machine</h2>
+                                <!-- <p class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                    Sapiente atque possimus voluptatem nisi earum eos quae ex voluptatum, molestiae
+                                    distinctio, tenetur itaque labore vel deserunt dicta deleniti minima ducimus
+                                    autem.</p> -->
+
+                                <button href="PlateBending.html" class="button">Find Out More</button>
+                            </div>
+                        </a>
+                        <a href="IronWorker.html" class="swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+                                <div class="card-image">
+                                    <img src="images/m7.png" alt="" class="card-img">
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h2 class="name">Iron Worker IR Series</h2>
+                                <!-- <p class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                    Sapiente atque possimus voluptatem nisi earum eos quae ex voluptatum, molestiae
+                                    distinctio, tenetur itaque labore vel deserunt dicta deleniti minima ducimus
+                                    autem.</p> -->
+
+                                <button href="IronWorker.html" class="button" id="machine_find">Find Out More</button>
+                            </div>
+                        </a>
+                        <a href="PressBrakeCNC.html" class="swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+                                <div class="card-image">
+                                    <img src="images/m8.png" alt="" class="card-img">
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h2 class="name">Pressbrake CNC Series</h2>
+                                <!-- <p class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                    Sapiente atque possimus voluptatem nisi earum eos quae ex voluptatum, molestiae
+                                    distinctio, tenetur itaque labore vel deserunt dicta deleniti minima ducimus
+                                    autem.</p> -->
+
+                                <button href="PressBrakeCNC.html" class="button" id="machine_find">Find Out
+                                    More</button>
+                            </div>
+                        </a>
+
+                    </div>
+
+                </div>
+                <div class="swiper-button-next swiper-navBtn"></div>
+                <div class="swiper-button-prev swiper-navBtn"></div>
+                <div class="swiper-pagination"></div>
+
+            </div>
+            <br>
+            <br>
+        </div>
+        <div class="accordion-class" style="margin-top: 5%">
+
+            <h2 id="our_machine" class="machine-header" style="color: black;">Our Machines</h2>
+            <ul class="accordion">
+                <li>
+                    <input type="checkbox" name="accordion" id="first">
+                    <label for="first" id="metal1_label">Machines for
+                        Steel Coils</label>
+                    <div class="content-section">
+                        <div class="table-box" id="table1">
+                            <div class="table-row table-head">
+                                <div class="table-cell first-cell">
+                                    <p>No</p>
+                                </div>
+                                <div class="table-cell">
+                                    <p>Machine Name</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <input type="checkbox" name="accordion" id="second">
+                    <label for="second" id="metal2_label">Machines for
+                        Metal Sheets or Plates</label>
+                    <div class="content-section">
+                        <div class="table-box" id="table2">
+                            <div class="table-row table-head">
+                                <div class="table-cell first-cell">
+                                    <p>No</p>
+                                </div>
+                                <div class="table-cell">
+                                    <p>Machine Name</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <input type="checkbox" name="accordion" id="third">
+                    <label for="third" id="metal3_label">Machines for
+                        H Beam and all structure shapes</label>
+                    <div class="content-section">
+                        <div class="table-box" id="table3">
+                            <div class="table-row table-head">
+                                <div class="table-cell first-cell">
+                                    <p>No</p>
+                                </div>
+                                <div class="table-cell">
+                                    <p>Machine Name</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <input type="checkbox" name="accordion" id="fourth">
+                    <label for="fourth" id="metal4_label">Machines for
+                        Metal Tube</label>
+                    <div class="content-section">
+                        <div class="table-box" id="table4">
+                            <div class="table-row table-head">
+                                <div class="table-cell first-cell">
+                                    <p>No</p>
+                                </div>
+                                <div class="table-cell">
+                                    <p>Machine Name</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <input type="checkbox" name="accordion" id="fifth">
+                    <label for="fifth" id="metal5_label">Machines for
+                        Deformed Bar and Wire</label>
+                    <div class="content-section">
+                        <div class="table-box" id="table5">
+                            <div class="table-row table-head">
+                                <div class="table-cell first-cell">
+                                    <p>No</p>
+                                </div>
+                                <div class="table-cell">
+                                    <p>Machine Name</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <input type="checkbox" name="accordion" id="sixth">
+                    <label for="sixth" id="metal6_label">Automation of Processes</label>
+                    <div class="content-section">
+                        <div class="table-box" id="table6">
+                            <div class="table-row table-head">
+                                <div class="table-cell first-cell">
+                                    <p>No</p>
+                                </div>
+                                <div class="table-cell">
+                                    <p>Machine Name</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <footer>
+            <div class="row">
+                <div class="col">
+                    <img class="logo" src="../../siamcharn_logo.png" alt="siamcharn">
+                    <p id="footer_col1">
+                        At Siam Charn, we are dedicated to enhancing our customer benefits through a blend of
+                        top-quality
+                        products, cutting-edge designs, and impeccable services. Your success is our utmost priority.
+                    </p>
+                </div>
+                <div class="col">
+                    <h3 id="foot_quick">Quick Contact</h3>
+                    <p class="email-id"><i class="ri-mail-fill" style="display: inline-block;
+                        vertical-align: middle;"></i> <a style="display: inline-block;
+                        vertical-align: middle; text-decoration: none; color: #FFF;"
+                            href="mailto:info@siamcharn.com">info@siamcharn.com</a></p>
+                    <h4><i class="ri-phone-fill" style="display: inline-block;
+                        vertical-align: middle; color: #00b0b0;"></i><a style="padding-left: 2px; display: inline-block;
+                        vertical-align: middle; text-decoration: none; color: #00b0b0; font-weight: 600;"
+                            href="tel:+662425865557"> +(66)-2 425
+                            8655-57</a>
+                    </h4>
+                    <h4><i class="ri-phone-fill" style="display: inline-block;
+                        vertical-align: middle; color: #00b0b0;"></i><a style="padding-left: 2px; display: inline-block;
+                        vertical-align: middle; text-decoration: none;color: #00b0b0; font-weight: 600;"
+                            href="tel: +662425894649">(+66)2 425 8946-49</a>
+                    </h4>
+                    <h4><i class="ri-printer-line" style="display: inline-block;
+                        vertical-align: middle; color: #00b0b0;"></i>
+                        <p style="padding-left: 4px; display: inline-block;
+                        vertical-align: middle; text-decoration: none;color: #00b0b0; font-weight: 600;">
+                            (+66)-2 425 8658</p>
+                    </h4>
+                    <a target="_blank" class="social-icon" href="https://www.facebook.com/siamcharn.atk/" style="display: inline-block;
+                    vertical-align: middle;"><span id="foot_fb">Follow us</span> <span><i style="display: inline-block;
+        vertical-align: middle;" class="ri-facebook-circle-fill"></span></i></a>
+                    <!-- <div class="underline"><span></span></div> -->
+                </div>
+                <div class="col">
+                    <h3 id="foot_links">Links</h3>
+                    <ul>
+                        <li class="footer-list"><a id="foot_home" href="../../index.html">Home</a></li>
+                        <li class="footer-list"><a id="foot_about" href="../aboutus.html">About Us</a></li>
+                        <li class="footer-list"><a id="foot_products" href="../products.html">Industry Products</a></li>
+                        <li class="footer-list"><a id="foot_spare" href="../spares.html">Spares and Maintenance</a></li>
+                        <li class="footer-list"><a id="foot_contact" href="../contactus.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h3 id="foot_office">Office</h3>
+                    <p id="foot_siam">Siam Charn Co., Ltd.</p>
+                    <p id="foot_address1">40 Moo 11 Suksawat Road Naiklongbangplakod</p>
+                    <p id="foot_address2">Prasamutchedi Samutprakarn 10290</p>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3877.9912483424546!2d100.5582488116581!3d13.597346700793619!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e2a2964d974431%3A0xf2ba9e6a63b96a0b!2z4Lia4Lij4Li04Lip4Lix4LiXIOC4quC4ouC4suC4oSDguIrguLLguI0g4LiI4Liz4LiB4Lix4LiUIFNpYW0gQ2hhcm4gQ28uLEx0ZA!5e0!3m2!1sen!2sth!4v1693731626727!5m2!1sen!2sth"
+                        width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">© Copyright 2023 siamcharn.com All Rights Reserved.
+            </p>
+        </footer>
+    </main>
+
+    <!--=============== MAIN JS ===============-->
+
+</body>
+<script>
+    var tablesDataTh = [
+        [
+            { no: 1, machineName: "เครื่องลด ความหนา เหล็กม้วน พร้อม เช็ค ความหนา เหล็ก อัตโนมัติ" },
+            { no: 2, machineName: "เครื่องผ่าเหล็กม้วน (สลิทเตอร์)" },
+            { no: 3, machineName: "เครื่องตัดแผ่นจากเหล็กม้วน" },
+            { no: 4, machineName: "Blanking Line & Stamping Line" },
+            { no: 5, machineName: "เครื่องแพ็คห่อกระดาษและรัดเหล็กม้วนอัตโนมัติ" },
+            { no: 6, machineName: "เครื่องรีดท่อแป๊ป จากเหล็กม้วน" },
+        ],
+        [
+            { no: 1, machineName: "เครื่องตัดแผ่น CNC ระบบ GAS, PLASMA, FIBER LASER, GUILLOTINE" },
+            { no: 2, machineName: "เครื่องพับเหล็ก CNC" },
+            { no: 3, machineName: "Combine Sheet Machine : plasma + drilling" },
+            { no: 4, machineName: "เครื่องเจาะพันซ์แผ่นระบบ CAD-CAM CNC , Drilling , Punching" },
+            { no: 5, machineName: "เครื่องม้วน ถังจากแผ่น 3 หรือ 4 ลูกกลิ้ง และ เครื่อง ม้วนเหล็กฉาก และ ม้วนบีม" },
+            { no: 6, machineName: "เครื่องเซาะ ร่องเหล็กแผ่น ระบบ CNC" },
+            { no: 7, machineName: "เครื่อง อเนกประสงค์" },
+            { no: 8, machineName: "CNC Router" },
+        ],
+        [
+            { no: 1, machineName: "Straightening Beam Machine" },
+            { no: 2, machineName: "Automatic Gantry Submerged Arc Welding Machine" },
+            { no: 3, machineName: "CNC Beam Drilling Machine" },
+            { no: 4, machineName: "Bandsaw to cut Beam, Angle U channel up to 1500 mm with And without CNC" },
+            { no: 5, machineName: "หุ่นยนต์เชื่อม 6 แกน Welding Robot" },
+            { no: 6, machineName: "เครื่องเจาะเหล็กแผ่น หนาถึง 100 มิลลิเมตร" },
+            { no: 7, machineName: "Beam Coping Machine" },
+            { no: 8, machineName: "Hot Dip Galvanizing Line" },
+            { no: 9, machineName: "ตู้เชื่อม CO2, SUBMERGED ARC, FLUXCORE และลวดเชื่อม" },
+        ],
+        [
+            { no: 1, machineName: "เครื่องผลิตท่อ เหล็ก อลูมิเนียม แสตนเลส ทองแดง" },
+            { no: 2, machineName: "เครื่องเช็ค รอยเชื่อม เช็คผิว เช็คความหนาแน่นของเนื้อเหล็กท่อ (EDDY CURRENT AND ULTRASONIC)" },
+            { no: 3, machineName: "เครื่องปาดปลายท่อ" },
+            { no: 4, machineName: "Bandsaw & Cold Saw Pipe Cutting Machine" },
+            { no: 5, machineName: "เครื่องทำเกลียวท่อ" },
+            { no: 6, machineName: "เครื่องเชื่อมท่อหนา งานท่อโรงกลั่น" },
+            { no: 7, machineName: "CNC Pipe Coaster " },
+            { no: 8, machineName: "CNC Laser Pipe Cutting Machine" },
+            { no: 9, machineName: "เครื่อง ดัดท่อแป๊ป  " },
+            { no: 10, machineName: "เครื่องเรียงท่ออัตโนมัติ" },
+            { no: 11, machineName: "เครื่องลัดท่ออัตโนมัติโดยใช้สาย PET หรือ สายเหล็ก" },
+            // Add more data for the first table as needed
+        ], [
+            { no: 1, machineName: "เครื่องรีดเหล็กข้ออ้อย และ ลวด จากบิลเล็ต และ เตาอบบิลเล็ต" },
+            { no: 2, machineName: "เครื่องเช็คผิว Wire Rod ความหนาแน่นของลวด" },
+            { no: 3, machineName: "เครื่องดึงตรง และตัดตามขนาดความยาวที่ต้องการ" },
+            { no: 4, machineName: "2D & 3D STIRRUPING MACHINE เครื่องตัดปลอกเสา" },
+            { no: 5, machineName: "เครื่องทำตะแกรง ไวท์เมช" },
+            { no: 6, machineName: "Precast Wire Mesh Welding Machine" },
+            { no: 7, machineName: "เครื่องเชื่อมตะแกรงรั้ว" },
+            { no: 8, machineName: "เครื่องจักร ชุบลวดสังกะสี" },
+
+
+            // Add more data for the first table as needed
+        ],
+        [
+            { no: 1, machineName: "รับทำระบบ PLC , HMI , SCADA , MES สำหรับสายพานการผลิต" },]
+    ];
+    // Function to fill in the table
+    var tablesData = [
+        [
+            { no: 1, machineName: "Machine for reducing steel coil thickness with automatic steel thickness checking" },
+            { no: 2, machineName: "Steel coil slitting machine(slitter)" },
+            { no: 3, machineName: "Machine for cutting sheets from steel coils" },
+            { no: 4, machineName: "Blanking Line & Stamping Line" },
+            { no: 5, machineName: "Automatic paper wrapping and steel coil strapping machine" },
+            { no: 6, machineName: "Pipe rolling machine by using rolled steel" },
+        ],
+        [
+            { no: 1, machineName: "CNC sheet cutting machine, gas, plasma, fiber laser, guillotine systems" },
+            { no: 2, machineName: "CNC Steel Folding Machine" },
+            { no: 3, machineName: "Combine Sheet Machine : plasma + drilling" },
+            { no: 4, machineName: "Sheet Punching Machine, CAD - CAM CNC system, Drilling, Punching" },
+            { no: 5, machineName: "Machine for rolling drums from 3 or 4 roller sheets and Angle Iron and Bean Bender Machine" },
+            { no: 6, machineName: "Steel sheet grooving machine, CNC system" },
+            { no: 7, machineName: "Multi - Purpose Machine" },
+            { no: 8, machineName: "CNC Router" },
+        ],
+        [
+            { no: 1, machineName: "Straightening Beam Machine" },
+            { no: 2, machineName: "Automatic Gantry Submerged Arc Welding Machine" },
+            { no: 3, machineName: "CNC Beam Drilling Machine" },
+            { no: 4, machineName: "Bandsaw to cut Beam, Angle U channel up to 1500 mm.with And without CNC" },
+            { no: 5, machineName: "6-axis Welding Robot" },
+            { no: 6, machineName: "Steel sheet drilling machine can drill steel up to a 100mm thickness" },
+            { no: 7, machineName: "Beam Coping Machine" },
+            { no: 8, machineName: "Hot Dip Galvanizing Line" },
+            { no: 9, machineName: "CO2 Welding Cabinet, Submerged Arc, Fluxcore and Welding Wire" },
+        ],
+        [
+            { no: 1, machineName: " Steel, aluminum, stainless steel, copper pipe production machines" },
+            { no: 2, machineName: "Machine for checking welds, checking the surface, checking the density of the steel pipe(EDDY CURRENT AND ULTRASONIC)" },
+            { no: 3, machineName: "Pipe End Cutting Machine" },
+            { no: 4, machineName: "Bandsaw & Cold Saw Pipe Cutting Machine" },
+            { no: 5, machineName: "Pipe Threading Machine" },
+            { no: 6, machineName: "Thick Pipe Welding Machine, Refinery Pipe Work" },
+            { no: 7, machineName: "CNC Pipe Coaster " },
+            { no: 8, machineName: "CNC Laser Pipe Cutting Machine" },
+            { no: 9, machineName: "Pipe Bending Machine" },
+            { no: 10, machineName: "Automatic Pipe Packing Machine" },
+            { no: 11, machineName: "Automatic Strapping Machine for Pipe Using PET or Steel Strap" },
+            // Add more data for the first table as needed
+        ], [
+            { no: 1, machineName: "Machine for rolling deformed bars and wire from billets and billet ovens" },
+            { no: 2, machineName: "Wire Rod Surface and Wire Density Inspection Machine" },
+            { no: 3, machineName: "Wire Straightening Machine and can cut to the desired length" },
+            { no: 4, machineName: "2D and 3D Stirruping Machine" },
+            { no: 5, machineName: "Wire Mesh Welding Machine" },
+            { no: 6, machineName: "Precast Wire Mesh Welding Machine" },
+            { no: 7, machineName: "Wire Mesh Machine" },
+            { no: 8, machineName: "Galvanized Wire Plating Machinery" },
+
+
+            // Add more data for the first table as needed
+        ],
+        [
+            { no: 1, machineName: "Providing PLC, SCADA, HMI, and MES systems for Automation of Production Line" },]
+    ];
+
+    function fillTable(data, containerId) {
+
+        var tableContainer = document.getElementById(containerId);
+        tableContainer.innerHTML = '';
+        for (var i = 0; i < data.length; i++) {
+            var newRow = document.createElement("div");
+            newRow.classList.add("table-row");
+
+            var cellNo = document.createElement("div");
+            cellNo.classList.add("table-cell");
+            cellNo.innerHTML = "<p>" + data[i].no + "</p>";
+
+            var cellMachineName = document.createElement("div");
+            cellMachineName.classList.add("table-cell");
+            cellMachineName.innerHTML = "<p>" + data[i].machineName + "</p>";
+
+            newRow.appendChild(cellNo);
+            newRow.appendChild(cellMachineName);
+
+            tableContainer.appendChild(newRow);
+        }
+    }
+
+
+    function renderslang() {
+
+        if (localStorage.lang == 'en') {
+            fillTable(tablesData[0], "table1"); // Fill the first table
+            fillTable(tablesData[1], "table2"); // Fill the second table
+            fillTable(tablesData[2], "table3");
+            fillTable(tablesData[3], "table4");
+            fillTable(tablesData[4], "table5");
+            fillTable(tablesData[5], "table6");
+            const elements = document.querySelectorAll('.button');
+            elements.forEach(function (element) {
+                element.textContent = 'Find Out More';
+            });
+        } else {
+            console.log('htjtjj');
+            const elements = document.querySelectorAll('.button');
+            fillTable(tablesDataTh[0], "table1"); // Fill the first table
+            fillTable(tablesDataTh[1], "table2"); // Fill the second table
+            fillTable(tablesDataTh[2], "table3");
+            fillTable(tablesDataTh[3], "table4");
+            fillTable(tablesDataTh[4], "table5");
+            fillTable(tablesDataTh[5], "table6");
+            elements.forEach(function (element) {
+                element.textContent = 'ข้อมูลเพิ่มเติม';
+                console.log('hello')
+            });
+        }
+
+    }
+    // Add more calls to fillTable for additional tables as needed
+    document.addEventListener("DOMContentLoaded", function () {
+        renderslang();
+    });
+
+    function exth() {
+        console.log('print');
+        togglelangth();
+        renderslang();
+    }
+    function exen() {
+        togglelangen();
+        renderslang();
+    }
+
+    // Attach the onclick event to the button
+    document.getElementById("btn_language1").onclick = exth;
+    document.getElementById("btn_language2").onclick = exen;
+
+    function adjustMaxWidth() {
+        const screenWidth = window.innerWidth;
+        const maxScreenWidth = 1118; // Your desired max width (e.g., 1118px)
+        const targetClass = document.querySelector('.slide-container'); // Replace with your class name
+
+        if (screenWidth < maxScreenWidth) {
+            // Set the max-width to the current screen width
+            targetClass.style.maxWidth = `${screenWidth}px`;
+        }
+        // else {
+        //     // Set the max-width back to your desired max width
+        //     targetClass.style.maxWidth = `${maxScreenWidth}px`;
+        // }
+    }
+
+    // Call the adjustMaxWidth function when the window is resized
+    window.addEventListener('resize', adjustMaxWidth);
+
+    // Initial adjustment when the page loads
+    adjustMaxWidth();
+</script>
+<!--=============== MAIN JS ===============-->
+
+
+
+<script src="../../assets/js/main.js"></script>
+<script src="../../assets/js/steel.js"></script>
+<script src="../../assets/js/lang-switch.js"></script>
+<script src="../../assets/js/code.jquery.com_jquery-3.7.1.min.js"></script>
+
+
+</html>
